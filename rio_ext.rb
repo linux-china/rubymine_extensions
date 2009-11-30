@@ -1,8 +1,9 @@
+# framework's website: http://rio.rubyforge.org/
 def register_rio_types()
   describe 'Kernel' do
     set_return_type "rio" => "RIO::Rio"
   end
-  
+
   describe 'RIO::ToRio::Object' do
     set_return_type "to_rio" => "RIO::Rio"
   end
