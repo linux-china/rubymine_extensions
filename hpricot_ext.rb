@@ -1,3 +1,4 @@
+# framework's website: http://wiki.github.com/hpricot/hpricot
 def register_hpricot_types()
   describe 'Hpricot' do
     set_return_type "make" => "Hpricot::Doc"
