@@ -13,6 +13,7 @@ def register_hpricot_types()
   describe 'Hpricot::Elements' do
     set_dynamic_methods %w(each first any? length)
     set_return_type 'at' => 'Hpricot::Elem'
+    set_return_type 'any?' => 'Boolean'
     set_return_type 'first' => 'Hpricot::Elem'
     set_return_type 'search' => 'Hpricot::Elements'
     set_block_variable_type "each" => "Hpricot::Elem"
