@@ -11,6 +11,7 @@ def register_rio_types()
   describe "RIO::IF::Grande" do
     set_return_type "delete" => "RIO::Rio"
     set_return_type "skip" => "RIO::Rio"
+    set_block_variable_type "each" => "RIO::Rio"
   end
 
   describe "RIO::IF::GrandeEntry" do
